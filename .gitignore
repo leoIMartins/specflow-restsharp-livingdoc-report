@@ -1,0 +1,52 @@
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.dmg
+*.app
+*.apk
+*.appx
+*.appxbundle
+*.vs
+*.user
+*.suo
+*.userosscache
+*.suo
+*.ncb
+*.suo
+*.sln.docstates
+*.tmp
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nupkg.meta
+packages/
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.csproj.nuget.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Other files
+*.swp
+*~.nib
+*.class
+*.specflow
+*.idea/
+
+# Build results
+*.build
+*.builds
+*.msbuild

@@ -1,0 +1,1 @@
+livingdoc test-assembly bin/Debug/net8.0/ChallengeSpecflowRestsharpApi.dll -t bin/Debug/net8.0/TestExecution.json -o logs/
