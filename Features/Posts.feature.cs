@@ -75,14 +75,16 @@ namespace ChallengeSpecflowRestsharpApi.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("View user by ID")]
+        [NUnit.Framework.CategoryAttribute("posts")]
         [NUnit.Framework.CategoryAttribute("get_by_id")]
         public void ViewUserByID()
         {
             string[] tagsOfScenario = new string[] {
+                    "posts",
                     "get_by_id"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("View user by ID", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 4
+#line 5
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -92,13 +94,13 @@ namespace ChallengeSpecflowRestsharpApi.Features
             else
             {
                 this.ScenarioStart();
-#line 5
+#line 6
     testRunner.Given("I send a GET request by ID", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 6
+#line 7
     testRunner.Then("the response status code should be \"200\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 7
+#line 8
     testRunner.And("the response body should contain existing user data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
@@ -107,14 +109,16 @@ namespace ChallengeSpecflowRestsharpApi.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Create a new user")]
+        [NUnit.Framework.CategoryAttribute("posts")]
         [NUnit.Framework.CategoryAttribute("post")]
         public void CreateANewUser()
         {
             string[] tagsOfScenario = new string[] {
+                    "posts",
                     "post"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create a new user", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 10
+#line 12
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((TagHelper.ContainsIgnoreTag(tagsOfScenario) || TagHelper.ContainsIgnoreTag(featureTags)))
@@ -124,13 +128,13 @@ namespace ChallengeSpecflowRestsharpApi.Features
             else
             {
                 this.ScenarioStart();
-#line 11
+#line 13
     testRunner.Given("I send a POST request", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 12
+#line 14
     testRunner.Then("the response status code should be \"201\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 13
+#line 15
     testRunner.And("the response body should contain new user data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
